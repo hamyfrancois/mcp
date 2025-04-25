@@ -22,6 +22,8 @@ extra["springAiVersion"] = "1.0.0-M7"
 
 dependencies {
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
+	implementation("org.springframework.boot:spring-boot-starter-web")
+	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
 	implementation("org.springframework.ai:spring-ai-starter-mcp-client")
 	implementation("org.springframework.ai:spring-ai-starter-mcp-server")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
